@@ -3,7 +3,7 @@ A dataset of multiclass semantic segmentation image annotations for the first 25
 
 | Raw Image | Segmentated Image |
 | --- | --- |
-| ![raw_image]() | ![segmented_image]() |
+| <img width="915" alt="raw_image" src="https://user-images.githubusercontent.com/42655977/211690204-301193c3-a651-4a3a-bd66-6458cf3a8778.png"> | <img width="915" alt="segmentation_mask" src="https://user-images.githubusercontent.com/42655977/211690212-2c9ca63a-f3ae-4d65-a4e0-ea76b20a616f.png"> |
 
 
 # Usage

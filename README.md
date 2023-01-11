@@ -20,7 +20,7 @@ This dataset defines 8 semantic classes (7 distinct classes + implicit backgroun
 
 ### **Notice**:
 
-(1) The color assignment is purely a suggestion as the color information is not encoded in the annotation file. The specified color mapping is mentioned here for explanatory and consistency reasons as this mapping is used in `dataloader.py` (see [Usage](#usage) for more information).
+(1) The color assignment is purely a suggestion as the color information encoded in the annotation file is not used by the `cvat_preprocessor.py` and can therefore be overwritten by any other mapping. The specified color mapping is mentioned here for explanatory and consistency reasons as this mapping is used in `dataloader.py` (see [Usage](#usage) for more information).
 
 (2) `[Ego Lane, Opposite Lane, Intersection]` are three semantic classes for essentially the same road tiles - the three classes were added to introduce more information for some use cases. Keep in mind, that some semantic segmentation neural network have a hard time learning the difference between these classes, leading to a poor performance on detecting these classes. In such case, treating these three classes as one *"Road"* class helps improving the segmentation performance.
 
